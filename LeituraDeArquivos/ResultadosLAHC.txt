@@ -1,0 +1,9 @@
+arquivo0,534
+arquivo1,749
+arquivo2,749
+arquivo3,2163
+arquivo4,628
+arquivo5,112
+arquivo6,274
+arquivo7,123
+arquivo8,16

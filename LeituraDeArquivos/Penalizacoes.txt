@@ -1,0 +1,291 @@
+FO: 144
+--------
+Funcionario= 0
+
+
+Fo Max Num Assignments = 0Cost0
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 0Cost0
+
+Fo Min Consecutives Working Days = 0Cost0
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 4Cost4
+
+Fo Ident Shift Types During Weekend =2Cost2
+
+Fo Unwanted Patterns= 0Cost0
+
+DayOffRequest= 2
+
+DayOnRequest= 0
+
+ShiftOffRequest= 5
+
+ShiftOnRequest= 0
+--------
+Funcionario= 1
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 0Cost0
+
+Fo Min Consecutives Working Days = 1Cost1
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 2Cost2
+
+Fo Ident Shift Types During Weekend =1Cost1
+
+Fo Unwanted Patterns= 0Cost0
+
+DayOffRequest= 5
+
+DayOnRequest= 0
+
+ShiftOffRequest= 3
+
+ShiftOnRequest= 0
+--------
+Funcionario= 2
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 0Cost0
+
+Fo Min Consecutives Working Days = 1Cost1
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 3Cost3
+
+Fo Ident Shift Types During Weekend =2Cost2
+
+Fo Unwanted Patterns= 0Cost0
+
+DayOffRequest= 6
+
+DayOnRequest= 0
+
+ShiftOffRequest= 5
+
+ShiftOnRequest= 0
+--------
+Funcionario= 3
+
+
+Fo Max Num Assignments = 0Cost0
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 0Cost0
+
+Fo Min Consecutives Working Days = 0Cost0
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 3Cost3
+
+Fo Ident Shift Types During Weekend =1Cost1
+
+Fo Unwanted Patterns= 0Cost0
+
+DayOffRequest= 1
+
+DayOnRequest= 0
+
+ShiftOffRequest= 3
+
+ShiftOnRequest= 0
+--------
+Funcionario= 4
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 0Cost0
+
+Fo Min Consecutives Working Days = 0Cost0
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 4Cost4
+
+Fo Ident Shift Types During Weekend =2Cost2
+
+Fo Unwanted Patterns= 0Cost0
+
+DayOffRequest= 3
+
+DayOnRequest= 0
+
+ShiftOffRequest= 2
+
+ShiftOnRequest= 0
+--------
+Funcionario= 5
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 1Cost1
+
+Fo Min Consecutives Working Days = 1Cost1
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 3Cost3
+
+Fo Ident Shift Types During Weekend =2Cost2
+
+Fo Unwanted Patterns= 1Cost1
+
+DayOffRequest= 7
+
+DayOnRequest= 0
+
+ShiftOffRequest= 3
+
+ShiftOnRequest= 0
+--------
+Funcionario= 6
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 0Cost0
+
+Fo Min Consecutives Working Days = 1Cost1
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 3Cost3
+
+Fo Ident Shift Types During Weekend =3Cost3
+
+Fo Unwanted Patterns= 0Cost0
+
+DayOffRequest= 3
+
+DayOnRequest= 0
+
+ShiftOffRequest= 5
+
+ShiftOnRequest= 0
+--------
+Funcionario= 7
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 0Cost0
+
+Fo Min Consecutives Working Days = 1Cost1
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 3Cost3
+
+Fo Ident Shift Types During Weekend =1Cost1
+
+Fo Unwanted Patterns= 1Cost1
+
+DayOffRequest= 5
+
+DayOnRequest= 0
+
+ShiftOffRequest= 2
+
+ShiftOnRequest= 0
+--------
+Funcionario= 8
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 4Cost4
+
+Fo Min Consecutives Working Days = 0Cost0
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =2Cost2
+
+Fo Complete Weekends = 2Cost2
+
+Fo Ident Shift Types During Weekend =1Cost1
+
+Fo Unwanted Patterns= 1Cost1
+
+DayOffRequest= 3
+
+DayOnRequest= 0
+
+ShiftOffRequest= 5
+
+ShiftOnRequest= 0
+--------
+Funcionario= 9
+
+
+Fo Max Num Assignments = 1Cost1
+
+Fo Min Num Assignments= 0Cost0
+
+Fo Max Consecutive Working Days= 3Cost3
+
+Fo Min Consecutives Working Days = 0Cost0
+
+Fo Max Consecutive Free Day= 0Cost0
+
+Fo Min Consecutive Free Days =0Cost0
+
+Fo Complete Weekends = 3Cost3
+
+Fo Ident Shift Types During Weekend =1Cost1
+
+Fo Unwanted Patterns= 0Cost0
+
+DayOffRequest= 2
+
+DayOnRequest= 0
+
+ShiftOffRequest= 2
+
+ShiftOnRequest= 0
