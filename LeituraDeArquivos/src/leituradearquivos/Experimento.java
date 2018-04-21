@@ -14,7 +14,7 @@ import java.util.Random;
  */
 public class Experimento {
 
-    public int replicacao = 9;
+    public int replicacao = 10;
     public int geracao[] = new int[2];
     public int mu[] = new int[2];
     public int lambda[] = new int[2];
@@ -29,11 +29,11 @@ public class Experimento {
     private int indexBl;
     private int indexTimeout;
     private double[] combinacao = new double[7];
-    
+
     private ArrayList<double[]> combinacoes = new ArrayList<>();
-    
+
     private boolean fezTodas = false;
-    
+
     public Experimento() {
         reset();
     }
@@ -56,45 +56,42 @@ public class Experimento {
 
     @Override
     public String toString() {
-        return "Experimento{"  + ", geracao=" + geracao[indexGeracao] + ", mu=" + mu[indexMu] + ", lambda=" + lambda[indexLambda] + ", lahc=" + lahc[indexLahc] + ", bl=" + bl[indexBl] + ", timout=" + timeout[indexTimeout] + '}';
+        return "Experimento{" + ", geracao=" + geracao[indexGeracao] + ", mu=" + mu[indexMu] + ", lambda=" + lambda[indexLambda] + ", lahc=" + lahc[indexLahc] + ", bl=" + bl[indexBl] + ", timout=" + timeout[indexTimeout] + '}';
     }
 
     public void geraCombinacao() {
         Random rnd = new Random();
-        if(rnd.nextInt()%2 == 0){
+        if (rnd.nextInt() % 2 == 0) {
             indexGeracao = 0;
         } else {
             indexGeracao = 1;
         }
-        
-        if(rnd.nextInt()%2 == 0){
+
+        if (rnd.nextInt() % 2 == 0) {
             indexMu = 0;
         } else {
             indexMu = 1;
         }
-        
-        
-        if(rnd.nextInt()%2 == 0){
+
+        if (rnd.nextInt() % 2 == 0) {
             indexLambda = 0;
         } else {
             indexLambda = 1;
         }
-        
-        if(rnd.nextInt()%2 == 0){
+
+        if (rnd.nextInt() % 2 == 0) {
             indexLahc = 0;
         } else {
             indexLahc = 1;
         }
-        
-        
-        if(rnd.nextInt()%2 == 0){
+
+        if (rnd.nextInt() % 2 == 0) {
             indexBl = 0;
         } else {
             indexBl = 1;
         }
-        
-        
-        if(rnd.nextInt()%2 == 0){
+
+        if (rnd.nextInt() % 2 == 0) {
             indexTimeout = 0;
         } else {
             indexTimeout = 1;
@@ -106,45 +103,47 @@ public class Experimento {
         combinacao[3] = lahc[indexLahc];
         combinacao[4] = bl[indexBl];
         combinacao[5] = timeout[indexTimeout];
-        
-        if(combinacoes.size()>=64) {
+
+        if (combinacoes.size() >= 64) {
             System.out.println("Acabaram as combinacoes");
             fezTodas = true;
             return;
         }
-        
-        if(combinacoes.contains(combinacao)) {
+
+        if (combinacoes.contains(combinacao)) {
             geraCombinacao();
-        } 
-        
+        }
+
         combinacoes.add(combinacao);
-        
+
         geraCombinacao();
-        
+
     }
-    
-    public ArrayList adicionaInstancia(){
+
+    public ArrayList adicionaInstancia() {
         ArrayList comb = new ArrayList<>();
         for (int i = 0; i < combinacoes.size(); i++) {
-            for (int j = 0; j < 9; j++) {
-                combinacoes.get(i)[6]=j;
+//            for (int j = 0; j < 9; j++) {
+            for (int j = 0; j < 4; j++) {
+                combinacoes.get(i)[6] = j;
                 comb.add(combinacoes.get(i).clone());
             }
         }
         return comb;
     }
-    
 
     public boolean isFezTodas() {
         return fezTodas;
-    }    
-    public void setFezTodas(boolean f){
+    }
+
+    public void setFezTodas(boolean f) {
         fezTodas = f;
     }
+
     public int getGeracao() {
         return geracao[indexGeracao];
     }
-    
+
     public int getMu() {
         return mu[indexMu];
     }
@@ -165,5 +164,4 @@ public class Experimento {
         return timeout[indexTimeout];
     }
 
-    
 }

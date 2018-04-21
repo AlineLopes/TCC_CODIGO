@@ -26,15 +26,21 @@ public class Main {
         String[] arquivo = new String[9];
         ArrayList<Integer> vetorInstancias = new ArrayList<Integer>();
 
-        arquivo[0] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint01.txt");
-        arquivo[1] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint02.txt");
-        arquivo[2] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint_hidden01.txt");
-        arquivo[3] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint_hidden02.txt");
-        arquivo[4] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint_hidden03.txt");
-        arquivo[5] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/medium01.txt");
-        arquivo[6] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/medium02.txt");
-        arquivo[7] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/medium03.txt");
-        arquivo[8] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint04.txt");
+//        arquivo[0] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint01.txt");
+//        arquivo[1] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint02.txt");
+//        arquivo[2] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint_hidden01.txt");
+//        arquivo[3] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint_hidden02.txt");
+//        arquivo[4] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint_hidden03.txt");
+//        arquivo[5] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/medium01.txt");
+//        arquivo[6] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/medium02.txt");
+//        arquivo[7] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/medium03.txt");
+//        arquivo[8] = ("/home/aline/Documents/Documents/Ufop/Estudos_TCC/novas_instancias/sprint04.txt");
+
+        arquivo[0] = ("/home/aline/novas_instancias/sprint01.txt");
+        arquivo[1] = ("/home/aline/novas_instancias/sprint_hidden01.txt");
+        arquivo[2] = ("/home/aline/novas_instancias/medium01.txt");
+        arquivo[3] = ("/home/aline/novas_instancias/long01.txt");
+
 
         for (int i = 0; i < arquivo.length; i++) {
             vetorInstancias.add(i);

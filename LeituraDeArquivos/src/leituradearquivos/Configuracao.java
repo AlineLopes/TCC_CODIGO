@@ -15,7 +15,7 @@ public class Configuracao {
     int geracoes;     
     int tamPopulacao;//mu     
     int tamanhoLAHC;
-    int lambda;
+    int lambda; 
     double tMutacao = 1.0;
     double tRefinamento;
     int timoutLAHC;
